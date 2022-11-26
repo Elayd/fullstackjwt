@@ -4,7 +4,6 @@ import {GetServerSideProps} from "next";
 import {wrapper} from "../redux/store";
 import {parseCookies} from "nookies";
 import {setUser} from "../redux/features/authSlice";
-import {UserApi} from "../redux/api";
 
 const Index = () => {
     return (
