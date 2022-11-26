@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/dist/query/react";
 export const authApi = createApi({
   reducerPath: "authApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3333/auth",
+    baseUrl: "https://fullstackjwt.herokuapp.com/auth",
   }),
   endpoints: (builder) => ({
     loginUser: builder.mutation({

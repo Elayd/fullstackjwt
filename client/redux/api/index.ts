@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:3333",
+  baseURL: "https://fullstackjwt.herokuapp.com",
 });
 
 export const UserApi = {
