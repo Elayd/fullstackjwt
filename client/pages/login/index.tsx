@@ -1,5 +1,5 @@
 import React from "react";
-import { AuthPage } from "./AuthPage";
+import { AuthPage } from "../../components/AuthPage";
 
 const Index = () => {
   return (

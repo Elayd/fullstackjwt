@@ -1,5 +1,5 @@
 import React from "react";
-import { RegisterPage } from "./RegisterPage";
+import { RegisterPage } from "../../components/RegisterPage";
 
 const Index = () => {
   return (

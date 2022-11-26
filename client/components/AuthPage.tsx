@@ -1,10 +1,10 @@
 import React from "react";
 import { Button, Card, Col, Container, Form, Row } from "react-bootstrap";
 import { useState } from "react";
-import { useAppDispatch } from "../../redux/hooks";
-import { useLoginUserMutation } from "../../redux/api/authApi";
+import { useAppDispatch } from "../redux/hooks";
+import { useLoginUserMutation } from "../redux/api/authApi";
 import { useEffect } from "react";
-import { setUser } from "../../redux/features/authSlice";
+import { setUser } from "../redux/features/authSlice";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { setCookie } from "nookies";
