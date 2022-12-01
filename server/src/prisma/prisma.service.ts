@@ -10,7 +10,7 @@ export class PrismaService
     super({
       datasources: {
         db: {
-          url: 'postgres://vwaskgymmtjsut:bafdfa5cba57be624ad9e593388f6d8feb5d39f58e2837faaf3a8c96390ec04b@ec2-34-248-169-69.eu-west-1.compute.amazonaws.com:5432/d54p3r4f6n2309',
+          url: 'postgres://postgresql_odii_user:RMLiuhhe8nnwT8zMTiHfD8RoVPjePdut@dpg-ce2i1iha6gdvdcnmkrsg-a.frankfurt-postgres.render.com/postgresql_odii',
         },
       },
     });
